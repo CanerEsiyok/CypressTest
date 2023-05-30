@@ -18,5 +18,11 @@ describe('Context: My first tests',()=>{
         cy.visit('/registration_form');
         
     })
+    it.skip('Test 2',()=>{
+        expect(false).to.equal(false);
+    })
+    xit('Test 3',()=>{
+        expect(5).to.equal(5);
+    })
 
 })
